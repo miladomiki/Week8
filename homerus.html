@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Добро пожаловать!!</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body id="body">
+    <header id="header">
+        <a href="home.html" class="logo">Safe Room</a>
+        <ul>
+            <li><a href="homerus.html" class="active">Главная</a></li>
+            <li><a href="firstpagerussian.html">Панические аттаки и истерики</a></li>
+            <li><a href="helprus.html">Помощь людям вокруг</a></li>
+            <li><a href="aboutrus.html">О Нас</a></li>
+            <li>
+                <div class="dropdown show">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Языки
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item " href="home_kaz.html"><center><img src="https://www.countryflags.io/kz/flat/64.png"></center></a>
+                        <a class="dropdown-item" href="homerus.html"><center><img src="https://www.countryflags.io/ru/flat/64.png"></center></a>
+                        <a class="dropdown-item active" href="home.html"><center><img src="https://www.countryflags.io/us/flat/64.png"></center></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <section id="section">
+        <h2 id="text"><span>Добро Пожаловать в</span><br />SafeRoom</h2>
+        <img src="bird1.png" id="bird1" />
+        <img src="bird2.png" id="bird2" />
+        <img src="forest.png" id="forest" />
+        <a href="#mainblock" id="btn">Начать!</a>
+        <img src="rocks.png" id="rocks" />
+        <img src="water.png" id="water" />
+    </section>
+
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#emptydiv1">
+                    <span class="icon"><i class="fas fa-user-nurse"></i></span>
+                    <span class="title">Панические атаки и истерики</span>
+                </a>
+            </li>
+            <li>
+                <a href="#emptydiv2">
+                    <span class="icon"><i class="fas fa-hands-helping"></i></span>
+                    <span class="title">Помощь людям вокруг</span>
+                </a>
+            </li>
+            <li>
+                <a href="#emptydiv3">
+                    <span class="icon"><i class="fab fa-weixin"></i></span>
+                    <span class="title">О Нас</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div style="width:100%; height:100%; z-index:4; display:flex" class="sec">
+        <div id="mainblock">
+            <div id="welcome_block">
+                <h2>Что такое "SafeRoom"?</h2>
+                    <p>
+                        Сайт экстремальной помощи для людей, которые борются с тревогой,
+                 приступами паники и / или истерикой в данный момент. Есть несколько советов и способов
+                 для борьбы с паническими атаками, телефон доверия для экстремальных ситуаций, количество доступных
+                 терапевты, ресурсы, чтобы отвлечься,  и все это для того чтобы люди могли быстрее и легче успокоиться
+                 и оправиться от непредвиденных ситуаций.
+
+                    </p>
+            </div>
+            <div id="emptydiv1" style="width:100%; height: 55px;">
+
+            </div>
+            <div id="panicblock" onclick="location.href='firstpage.html'">
+                <center><p id="block_header">Панические атаки и истерики</p></center>
+            </div>
+            <div id="emptydiv2" style="width:100%; height: 55px;">
+
+            </div>
+            <div id="helpblock" onclick="location.href='#'">
+                <center><p id="block_header">Помощь людям вокруг</p></center>
+            </div>
+            <div id="emptydiv3" style="width:100%; height: 55px;">
+
+            </div>
+            <div id="aboutblock" onclick="location.href='about.html'">
+                <center><p id="block_header">О Нас</p></center>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Разделы</h3>
+                        <ul>
+                            <li><a href="homerus.html">Панические атаками и истерики</a></li>
+                            <li><a href="firstpagerussian.html">Советы, чтобы быстро успокоиться</a></li>
+                            <li><a href="helprus.html">Помощь людям вокруг</a></li>
+                            <li><a href="#">Если хотите расслабиться</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>О Нас</h3>
+                        <ul>
+                            <li><a href="aboutrus.html#helpblock">Свяжитесь с нами</a></li>
+                            <li><a href="aboutrus.html#panicblock">Наша команда</a></li>
+                            <li><a href="aboutrus.html#aboutblock">Пожертвования</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Safe Room</h3>
+                        <p>
+                            Сайт экстремальной помощи для людей, которые в данный момент борются с тревогой, паническими атаками и / или истериками.
+                        </p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-snapchat"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Safe Room © 2021</p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        let text = document.getElementById('text');
+        let bird1 = document.getElementById('bird1');
+        let bird2 = document.getElementById('bird2');
+        let btn = document.getElementById('btn');
+        let rocks = document.getElementById('rocks');
+        let forest = document.getElementById('forest');
+        let water = document.getElementById('water');
+        let header = document.getElementById('header');
+
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+
+            text.style.top = 50 + value * -0.5 + '%';
+            bird1.style.top = value * -1.5 + 'px';
+            bird1.style.left = value * 2 + 'px';
+            bird2.style.top = value * -1.5 + 'px';
+            bird2.style.left = value * -5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            rocks.style.top = value * -0.12 + 'px';
+            forest.style.top = value * 0.25 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+        function toggleMenu() {
+            let navigation = document.querySelector('.navigation');
+            let toggle = document.querySelector('.toggle');
+            navigation.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+
+        window.addEventListener("scroll", function () {
+            let sidebar = document.querySelector(".navigation");
+            sidebar.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+    </script>
+</body>
+</html>
